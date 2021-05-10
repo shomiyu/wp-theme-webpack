@@ -1,0 +1,59 @@
+@charset 'UTF-8';
+@import "color-book";
+
+// -----------------------------------
+//  Layout Settings
+//------------------------------------
+
+// Contentの幅
+$content-width: 1200px !default;
+
+// ブレークポイント
+$breakpoints: (
+  "sp": 480px,
+  "tab": 768px,
+  "lap": 1024px,
+  "desk": 1200px,
+  "vr": 1024px,
+) !default;
+
+//====================================
+//  Color Setings
+//  See: https://www.materialui.co/colors
+//====================================
+
+// ベースカラー
+$base-color: $md-grey-50;
+
+// メインカラー
+$main-color: $md-indigo-800;
+
+// サブカラー
+$sub-color: $md-white;
+
+//　アクセントカラー
+$accent-color: $md-amber-400;
+
+// テキストの色
+$primary-text-color: $md-grey-900;
+
+// セカンダリーカラー
+$secondary-text-color: $md-white;
+
+// 補足などの色
+$hint-text-color: $md-indigo-50;
+
+// リンクカラー
+$link-text-color: $md-blue-a400;
+
+// ロールオーバーーカラー
+$hover-text-color: $md-cyan-300;
+
+//====================================
+//  Typeface
+//====================================
+
+$font-set-primary: "M PLUS Rounded 1c", "Osaka", "メイリオ", "Meiryo",
+  "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+
+$base-font-size: fz(16);
